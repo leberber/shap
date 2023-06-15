@@ -1,0 +1,26 @@
+
+.mantine-Tabs-root{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.mantine-Tabs-tabsList{
+    background-color: var(--gray_bg);
+    border-radius: 15px;
+    padding: 15px; 
+}
+
+.mantine-Tabs-tabLabel{
+    min-width: 70px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    margin:0px;
+}
+
+.mantine-Tabs-tab[data-active], .mantine-Tabs-tab:hover {
+    background-color:   var(--dark_blue) !important;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500
+}

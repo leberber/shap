@@ -1,0 +1,21 @@
+/* setTimeout(()=>{debugger;},5000) */
+:root {
+    --gray_bg: rgba(243, 244, 245,0.4);
+    --tomato:rgba(255, 99, 71, 1);
+    --blue:rgba(12, 192, 223, 1);
+    --green:rgb(30, 222, 132);
+    --dark_blue:rgba(8, 18, 48, 0.8);
+    --muted:rgb(134, 142, 150);
+    --white:white;
+}
+html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: var(--gray_bg);
+ }
+
+.js-plotly-plot .plotly .cursor-crosshair {
+    cursor: pointer !important;
+}
+

@@ -1,0 +1,30 @@
+
+.mantine-Stepper-stepIcon{
+    border-color: var( --tomato);
+    background-color: white;
+}
+
+.mantine-Stepper-stepIcon[data-completed], 
+.mantine-Stepper-stepIcon[data-progress] {
+    background-color: var( --tomato);
+    border-color: var( --tomato)
+}
+
+.mantine-Stepper-separatorActive{
+    background-color: var(--tomato);
+}
+
+.mantine-Button-root:hover, 
+.mantine-Button-root:active {
+    background-color: var(--dark_blue);
+    color: white ;
+    font-weight: bolder;
+}
+
+#stepper-paper{
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
